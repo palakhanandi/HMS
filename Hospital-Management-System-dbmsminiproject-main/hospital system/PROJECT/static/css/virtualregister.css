@@ -1,0 +1,99 @@
+.section-title {
+    text-align: center;
+     padding-bottom: 30px;
+}
+
+.pricing .row {
+    padding-top: 0px;
+}
+
+.card {
+    /* background-color: blue; */
+    margin-top: 57px;
+    border-radius: 8px 40px 40px 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 0px 8px 2px greenyellow;
+    margin-bottom: 0px;
+}
+
+.bg-dark {
+    /* background-color: blue; */
+    background: linear-gradient(135deg, #009688 0%, #004D40 100%);
+
+}
+
+label {
+    color: white;
+    margin-top: 15px;
+    font-family: 'Itim', cursive;
+}
+
+.jumbotron {
+     background-color: blue; 
+    background-image: linear-gradient(315deg, #63d472 0%, #183968 74%) 
+   
+}
+
+#gender {
+    width: 300px;
+}
+
+#slot {
+    width: 300px;
+}
+
+#dept {
+    width: 300px;
+}
+
+.form-group input {
+    width: 300px;
+    border: none;
+   
+    border-bottom: 2px solid blue;
+    outline: none;
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-family: 'Itim', cursive;
+}
+
+option {
+    width: 400px;
+    border: none;
+    border: 1px solid #00C9A7;
+    outline: none;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.form-group input:hover {
+    background-color :ghostwhite;
+}
+
+#btn {
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+    border-radius: 15px;
+    border: none;
+    position: relative;
+    width: 300px;
+}
+
+#btn:hover {
+    background-color: white;
+    color: white;
+}
+.carousel-item{
+    display: block;
+    margin-bottom: 0 !important;  /* remove bottom margin */
+    padding-bottom: 0 !important; /* remove bottom padding */
+}
+.carousel-item img {
+            /* makes image stretch across container */
+            display: block;
+            padding: 0;
+    height: 700px;        /* fixed height for all images */
+     object-fit: cover;    
+    margin-bottom: 0;
+    /* margin-bottom: -5px;  */
+}
